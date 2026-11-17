@@ -1,0 +1,18 @@
+KRESCE CRM — Aplicação Web Progressiva (PWA)
+
+O pacote contém:
+- index.html: aplicação CRM
+- manifest.webmanifest: identidade e configuração instalável
+- service-worker.js: cache/offline
+- icons/: ícones da Kresce Ads
+
+COMO INSTALAR NO ANDROID:
+1. Publique todos os ficheiros mantendo esta estrutura num alojamento HTTPS (por exemplo, Netlify ou GitHub Pages).
+2. Abra o endereço HTTPS no Chrome do Android.
+3. Escolha "Instalar app" quando aparecer no topo da aplicação; ou abra o menu ⋮ do Chrome e escolha "Instalar aplicação" / "Adicionar ao ecrã inicial".
+4. Depois da instalação, o KRESCE CRM abre numa janela própria, como uma aplicação.
+
+IMPORTANTE:
+- A instalação PWA exige endereço HTTPS (ou localhost); abrir o index.html directamente como ficheiro não permite a instalação PWA.
+- Esta versão guarda os registos localmente no navegador/dispositivo. Não tem ainda login real nem sincronização na nuvem entre dispositivos.
+- Faça cópias de segurança regularmente através da área Relatórios.
